@@ -11,16 +11,22 @@ body{
 	background-color: #00B2A9;
 	font-family: 'Raleway', sans-serif;
 }
+
 .foto{
-	position: static;
 	background: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+ 	background-attachment: fixed;
 	background-size: cover;
-	padding: 370px;
+    background-position: center;
+    height: 650px;
+    /* imagen fija*/
+    width: auto;
+    position: relative;
 }
 
 .navB{
 	width: 100%;
 	position: fixed;
+	z-index: 1;
 }
 a{
 	margin-right: 50px;	
@@ -72,24 +78,23 @@ a{
 	font-weight: bold;
 
 }
-
 .fija-uno{
 	background-color: #EDE9E2;
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: 0px;
 	right: 0;
 }
 .box input {
 	width: 350px;
-	height: 40px;
+	height: 50px;
 	margin-left: 70px;
 	display: block;
 	margin-top: -90px;	
-	visibility: -10px;
 	border: none;
     background-color:#EDE9E2; 
     border-bottom: 1px solid #838584;
 }
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #CFD1D0;
 }
@@ -126,35 +131,7 @@ a{
 	margin-top: -170px
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.fija-uno span{
-	background-color: red;
-	line-height: 18px;
-	font-size: 18px;
-	display: block;
-	padding: 5px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 20px;
-}*/
-
-/*play with me*/
-.caja{
-	display: inline;
-}
+/*textos del volante*/
 .textos{
 	
 	padding: 20px;
@@ -164,15 +141,25 @@ a{
 	margin-right: 170px;
 }
 
+/*play*/
 .uno{
 	text-align: center;
 	background-color: #EDE9E2;
 	padding: 20px;
+	margin-top: 100px;
 	font-size: 50px;
+	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	color: #75726C;
 }
+/*aututo*/
+.auto{
+	background-color: #EDE9E2;
+	position: absolute;
+	margin-left: 210px;
+	margin-top: 60px;
+	width: 900px;
+	height: 300px;
+}
 
-
-
-
+/*texto dentro del juego*/
