@@ -95,13 +95,14 @@ a{
 }
 
 /*BOTON*/
-.btn {
+#btn{
+	margin-left: 70px;
+	display: block;
+	margin-top: 10px;
+}
+#btn {
   background: #E54E79;
-  background-image: -webkit-linear-gradient(top, #E54E79, #E54E79);
-  background-image: linear-gradient(to bottom, #E54E79, #E54E79);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
+  border-radius: 13px;
   font-family: Arial;
   color: #ffffff;
   font-size: 13px;
@@ -109,13 +110,21 @@ a{
   text-decoration: none;
 }
 
-.btn:hover {
+#btn:hover {
   background: #00B2A9;
-  background-image: -webkit-linear-gradient(top, #00B2A9, #09f2e2);
-  background-image: linear-gradient(to bottom, #00B2A9, #09f2e2);
   text-decoration: none;
 }
-
+/*mas texto debajo de boton*/
+.text {
+	margin-right: -200px;
+	display: block;
+	margin-top: -80px;
+}
+.tex{
+	margin-right: 46px;
+	display: block;
+	margin-top: -170px
+}
 
 
 
