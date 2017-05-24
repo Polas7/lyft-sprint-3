@@ -221,22 +221,30 @@ footer {
 	width: 1349px;
 	height: 50px
 }
+/*titulo footer*/
 h1{
 	top: 40px;
 	margin-left: 225px;
 	font-size: 30px;
-	color: #EDE9E2;
+	color: #E56385;
 }
 .p{
 	margin-left: 230px;
 }
-
+/*video de youtube de Lyft*/
 .video-responsive {
 	position: absolute;
 	margin-top: 1px;
 	margin-left: 230px;
 }
+/*lista de link de redes sociales*/
 .unique{
 	position: absolute;
 	margin-left: 900px;
+	margin-top: -15px;
 } 
+.unique h1{
+	color: #E54E79;
+	font-size: 20px;
+	margin-left: 0px;
+}
