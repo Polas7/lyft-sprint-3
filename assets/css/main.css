@@ -11,18 +11,19 @@ body{
 	background-color: #00B2A9;
 	font-family: 'Raleway', sans-serif;
 }
-
+/*imagen fondo*/
 .foto{
 	background: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
  	background-attachment: fixed;
 	background-size: cover;
     background-position: center;
     height: 650px;
-    /* imagen fija*/
+ 
+/* imagen fija*/
     width: auto;
     position: relative;
 }
-
+/*nav bar*/
 .navB{
 	width: 100%;
 	position: fixed;
@@ -59,12 +60,14 @@ a{
 	background-color:  #CB097A;
 	color: black;
 }
+/*logo*/
 .logo img{
 	position: fixed;
 	width: 50px; /*tam*/
 	margin-left: 200px;
 	top: 15px;
 }
+
 /*CAJITA VOLADORA*/
 .box{/*tamaño de caja*/
 	width: 500px;
@@ -76,7 +79,6 @@ a{
 	color: #00B2A9;
 	line-height: 200px;
 	font-weight: bold;
-
 }
 .fija-uno{
 	background-color: #EDE9E2;
@@ -84,6 +86,7 @@ a{
 	top: 0px;
 	right: 0;
 }
+/* caja de texto, input*/
 .box input {
 	width: 350px;
 	height: 50px;
@@ -94,7 +97,6 @@ a{
     background-color:#EDE9E2; 
     border-bottom: 1px solid #838584;
 }
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #CFD1D0;
 }
@@ -119,6 +121,7 @@ a{
   background: #00B2A9;
   text-decoration: none;
 }
+
 /*mas texto debajo de boton*/
 .text {
 	margin-right: -200px;
@@ -154,6 +157,7 @@ a{
 }
 /*aututo*/
 .auto{
+	margin-bottom: 50px;
 	background-color: #EDE9E2;
 	position: absolute;
 	margin-left: 210px;
@@ -163,3 +167,46 @@ a{
 }
 
 /*texto dentro del juego*/
+.name {
+	width: 350px;
+	height: 50px;
+	margin-left: 10px;
+	display: inline;
+	margin-top: 100px;	
+	border: none;
+    background-color:#EDE9E2; 
+    border-bottom: 1px solid #838584;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CFD1D0;
+}
+
+.bton {  
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -800px;
+  background: #00B2A9;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #EDE9E2;
+  font-size: 13px;
+  padding: 12px 370px 12px 370px;
+  text-decoration: none;
+}
+
+.bton:hover {
+  background: #E54E79;
+  text-decoration: none;
+}
+
+.fa-car{
+	color: #75726C;
+	margin-left: 30px;
+	margin-right: 0px;
+}
+
+footer {
+	margin-top: 500px;
+	position: absolute;
+	background-color: #75726C;
+}
