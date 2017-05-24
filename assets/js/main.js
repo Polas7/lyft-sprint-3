@@ -100,3 +100,17 @@ for(var i = 0; i<tablero.length; i++){
         return 'retrocediendo';
     }
 }*/
+/* no alcance a mas nada; :()
+function valida_envia(){
+
+//Definimos los caracteres permitidos en una dirección de correo electrónico
+var regexp = /^[0-9a-zA-Z._.-]+\@[0-9a-zA-Z._.-]+\.[0-9a-zA-Z]+$/;
+
+var valor = document.form.telefono.value;
+if( !(/^\d{9}$/.test(valor)) ) {
+alert("Tiene que escribir un teléfono de 9 dígitos");
+document.form.telefono.focus();
+return 0;
+}
+};*/
+
