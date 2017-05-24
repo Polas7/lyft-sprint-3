@@ -14,23 +14,22 @@ if(juego.style.display !== "none" && juego.style.display === ""){
 var starGone = document.getElementsByClassName("bton")[0];
 starGone.addEventListener("click", borrar);
 
+/*funcion ocutar el tablero*/
 function borrar(){
 /*alert("holi")*/
-var eraser = document.getElementsByClassName("auto")[0];
-if(eraser.style.display !== "none" && eraser.style.display === ""){
-    eraser.style.display = "none";
+var tablero = document.getElementById("tablero");
+if(tablero.style.display == "none" && tablero.style.display == ""){
+    tablero.style.display = "none";
+}else{ 
+    mostrartablero();
 } 
 };
-var tablero = document.getElementById("tablero");
-
-
-
-
 
 
 
     //Defino el tablero
-var tablero = [
+    function mostrartablero(){
+ var tablero = [
   [0,0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0],
@@ -58,4 +57,5 @@ for(var i = 0; i<tablero.length; i++){
     fila.appendChild(casilla);
   }
   divTablero.appendChild(fila);
-}    
+    }
+};    
