@@ -5,24 +5,12 @@ Colors:
 #00B2A9; azul mio XD;
 #75726C; plomo;
 #EDE9E2;  blanco
-*/
-body{
+*/body{
 	margin: 0;
 	background-color: #00B2A9;
 	font-family: 'Raleway', sans-serif;
 }
-/*imagen fondo*/
-.foto{
-	background: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
- 	background-attachment: fixed;
-	background-size: cover;
-    background-position: center;
-    height: 650px;
- 
-/* imagen fija*/
-    width: auto;
-    position: relative;
-}
+
 /*nav bar*/
 .navB{
 	width: 100%;
@@ -67,8 +55,18 @@ a{
 	margin-left: 200px;
 	top: 15px;
 }
-
-/*CAJITA VOLADORA*/
+/*imagen de portada*/
+.foto{
+	background: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+ 	background-attachment: fixed;
+	background-size: cover;
+    background-position: center;
+    height: 650px;
+ 
+/* imagen fija*/
+    width: auto;
+    position: relative;
+}
 .box{/*tamaño de caja*/
 	width: 500px;
 	height: 350px;
@@ -80,19 +78,24 @@ a{
 	line-height: 200px;
 	font-weight: bold;
 }
-.fija-uno{
+
+.box {
 	background-color: #EDE9E2;
 	position: absolute;
 	top: 0px;
 	right: 0;
 }
 /* caja de texto, input*/
-.box input {
+.name {
+	display: inline;
+	position: absolute;
 	width: 350px;
-	height: 50px;
-	margin-left: 70px;
-	display: block;
-	margin-top: -90px;	
+	height: 30px;
+	top: 276px;
+	right: 0;
+	margin-right: 57px;
+	margin-top: -105px;
+	font-size: 17px;
 	border: none;
     background-color:#EDE9E2; 
     border-bottom: 1px solid #838584;
@@ -100,14 +103,21 @@ a{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #CFD1D0;
 }
-
-/*BOTON*/
-#btn{
+/*textos del volante*/
+.textos{
+	padding: 20px;
+	margin-top: -180px;
+	font-size: 13px;
+	color: #75726C;
+	margin-right: 170px;
+}
+/*BOTON (drive)*/
+.btn1{
 	margin-left: 70px;
 	display: block;
-	margin-top: 10px;
+	margin-top: -20px;
 }
-#btn {
+.btn1 {
   background: #E54E79;
   border-radius: 13px;
   font-family: Arial;
@@ -116,35 +126,24 @@ a{
   padding: 8px 16px 8px 16px;
   text-decoration: none;
 }
-
-#btn:hover {
+/*paso con el cursor*/
+.btn1:hover {
   background: #00B2A9;
   text-decoration: none;
 }
-
-/*mas texto debajo de boton*/
-.text {
-	margin-right: -200px;
-	display: block;
+/*mas texto, el que esta debajo de boton*/
+.text{
+	width: 400px;
 	margin-top: -80px;
+	margin-left: 40px;
+	color: black;
 }
-.tex{
-	margin-right: 46px;
-	display: block;
-	margin-top: -170px
+.text1{
+	width: 400px;
+	margin-top: -170px;
+	margin-left: -23px;
 }
-
-/*textos del volante*/
-.textos{
-	
-	padding: 20px;
-	margin-top: -180px;
-	font-size: 13px;
-	color: #75726C;
-	margin-right: 170px;
-}
-
-/*play*/
+/*texto medio pagina(play)*/
 .uno{
 	text-align: center;
 	background-color: #EDE9E2;
@@ -155,7 +154,8 @@ a{
 	font-family: 'Raleway', sans-serif;
 	color: #75726C;
 }
-/*aututo*/
+
+/*seccion del autito (cuadro)*/
 .auto{
 	margin-bottom: 50px;
 	background-color: #EDE9E2;
@@ -165,9 +165,8 @@ a{
 	width: 900px;
 	height: 300px;
 }
-
-/*texto dentro del juego*/
-.name {
+/*seccion autito (coordenadas) texto*/
+.name1 {
 	width: 350px;
 	height: 50px;
 	margin-left: 10px;
@@ -180,7 +179,6 @@ a{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #CFD1D0;
 }
-
 .bton {  
   position: absolute;
   margin-top: 190px;
@@ -199,15 +197,16 @@ a{
   text-decoration: none;
 }
 
+
 .fa-car{
 	color: #75726C;
-	margin-left: 30px;
+	margin-left: 23px;
 	margin-right: 0px;
 }
 
 footer {
 	margin-top: 500px;
-	width: 1350px;
+	width: 1349px;
 	height: 300px;
 	position: absolute;
 	background-color: #75726C;
@@ -219,6 +218,25 @@ footer {
 	position: absolute;
 	margin-left: 0px;
 	margin-top: 220px;
-	width: 1350px;
+	width: 1349px;
 	height: 50px
 }
+h1{
+	top: 40px;
+	margin-left: 225px;
+	font-size: 30px;
+	color: #EDE9E2;
+}
+.p{
+	margin-left: 230px;
+}
+
+.video-responsive {
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 230px;
+}
+.unique{
+	position: absolute;
+	margin-left: 900px;
+} 
