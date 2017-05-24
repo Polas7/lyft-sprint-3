@@ -251,17 +251,24 @@ h1{
 
 
 #tablero{
-  border: 5px solid #900C3F;
+  border: 1px solid #00B2A9;
+  width: 550px;
+ 
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }
 .casilla{
-	box-sizing: border-box;
-  /*Es mejor con float:left*/
-  display:inline-block;
-  background-color: #581845;
-  color: whitesmoke;
-  padding: 10px;
+  box-sizing: border-box;
+  float:left;
+  /*display:inline-block;*/
+  background-color: #E56385 ;
+  color: #E56385;
   font-family: sans-serif;
-  width: 10%;
+  font-size: 8px;
+  width: 55px;
+  height: 55px;
   text-align: center;
-  border: 5px #900C3F solid;
+  border: 1px #900C3F solid;
 }

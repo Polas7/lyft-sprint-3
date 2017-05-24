@@ -38,7 +38,12 @@ if(tablero.style.display == "none" && tablero.style.display == ""){
   [0,0,0,0,0,0,0,0,0,0]
 ]
 //Ingreso el auto en la posicion 3,5
-tablero[3][5] = "A";
+var auto1 = document.getElementById("auto1").value;
+var auto2 = document.getElementById("auto2").value;
+
+/*validacion que no funciono, me boto codigo*/
+/* tablero[auto1][auto2] = "<img src='assets/img/car.png' alt='autito' width='25'>";*/
+tablero[3][5] = "<img src='assets/img/car.png' alt='autito' width='25'>";
 
 //Obtengo el div en donde se dibujará el tablero
 var divTablero = document.getElementById("tablero");
@@ -59,3 +64,39 @@ for(var i = 0; i<tablero.length; i++){
   divTablero.appendChild(fila);
     }
 };    
+
+/*funciona solo con algunos parametros, sino me borra la tabla*/
+/* function validar(){
+  var auto1 = document.getElementById("auto1").value;
+  var auto2 = document.getElementById("auto2").value; 
+  if (auto1 == "" || auto2== ""){
+    alert("ingrese datos")
+  }
+ }   
+
+ botonStart.addEventListener("click", validar);*/
+
+/*constuctor ayuda con la Nat <3 <3 <3 */
+/*
+ class Auto {
+
+    constructor(posicion_x, posicion_y) {
+        this.posicion_x = posicion_x;
+        this.posicion_y = posicion_y;
+    }
+    avanzar() {
+        return 'avanzando'
+    }
+
+    irIzquierda(tablero) {
+        return 'avanzamos a la izquierda';
+    }
+
+    irDerecha() {
+        return 'avanzamos a la derecha';
+    }
+
+    retroceder() {
+        return 'retrocediendo';
+    }
+}*/
