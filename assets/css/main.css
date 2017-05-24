@@ -244,7 +244,24 @@ h1{
 	margin-top: -15px;
 } 
 .unique h1{
-	color: #E54E79;
+	color: #00B2A9;
 	font-size: 20px;
 	margin-left: 0px;
+}
+
+
+#tablero{
+  border: 5px solid #900C3F;
+}
+.casilla{
+	box-sizing: border-box;
+  /*Es mejor con float:left*/
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 10%;
+  text-align: center;
+  border: 5px #900C3F solid;
 }
