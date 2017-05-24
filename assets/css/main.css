@@ -207,8 +207,18 @@ a{
 
 footer {
 	margin-top: 500px;
-	width: ;
-	height:;
+	width: 1350px;
+	height: 300px;
 	position: absolute;
 	background-color: #75726C;
+}
+.parrafo{
+	background-color: #636363;
+	color: #CFD1D0;
+	margin-top: 220px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 220px;
+	width: 1350px;
+	height: 50px
 }
